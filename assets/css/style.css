@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(43, 140, 214, 0.8);
+}
+
+
+/* container for btn and menu */
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.container:hover .menu {
+    transform: translateX(calc(0% + 8px));
+}
+
+/* link as a button */
+a {
+    text-decoration: none;
+    font-size: 48px;
+    color: white;
+    background-color: rgba(214, 43, 43);
+    border-radius: 10px;
+    padding: 8px;
+    width: 136px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.menu {
+    transition: all 550ms ease-out;
+    position: absolute;
+    transform: translateX(calc(100% + 32px));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-right: 16px;
+    width: 150px;
+    gap: 8px;
+}
