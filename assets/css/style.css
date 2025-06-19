@@ -24,7 +24,7 @@ body {
 }
 
 .container:hover .menu {
-    transform: translateX(calc(0% + 8px));
+    transform: translateX(calc(0% + 0px));
 }
 
 #menu-btn:hover {
@@ -57,14 +57,14 @@ a:hover {
     position: absolute;
     top: 80px;
     transition: all 550ms ease-out;
-    transform: translateX(calc(100% + 0px));
+    transform: translateX(calc(100% + 16px));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     padding-top: 8px;
     padding-right: 16px;
-    padding-left: 8px;
+    padding-left: 16px;
     padding-bottom: 8px;
     border-radius: 10px;
     width: 150px;
